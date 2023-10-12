@@ -1,0 +1,18 @@
+# Directories that are generated
+/tags
+cmake-build*
+
+# Filetypes
+*~
+*.pyc
+*.swp
+
+# OSX
+.DS_Store
+
+# Credentials files referenced in release documentation.
+github_token.txt
+jira_creds.txt
+
+# Hugo artifacts.
+.hugo_build.lock

@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+includedir=${exec_prefix}/include
+
+Name: libmongoc
+Description: The libmongoc MongoDB client library.
+Version: @VERSION@
+Requires: libbson-static-1.0
+Libs: -L${libdir} -lmongoc-static-1.0 @MONGOC_LIBRARIES@
+Cflags: -I${includedir}/libmongoc -DMONGOC_STATIC
+Requires.private: @MONGOC_REQUIRES_PRIVATE@

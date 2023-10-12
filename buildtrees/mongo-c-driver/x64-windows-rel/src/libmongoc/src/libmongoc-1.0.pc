@@ -1,0 +1,11 @@
+prefix=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${exec_prefix}/include
+
+Name: libmongoc
+Description: The libmongoc MongoDB client library.
+Version: 1.24.3
+Requires: libbson-1.0
+Libs: -L${libdir} -lmongoc-1.0
+Cflags: -I${includedir}

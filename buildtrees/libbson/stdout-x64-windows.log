@@ -1,0 +1,17 @@
+-- Downloading https://github.com/mongodb/mongo-c-driver/archive/1.24.3.tar.gz -> mongodb-mongo-c-driver-1.24.3.tar.gz...
+-- Extracting source B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/mongodb-mongo-c-driver-1.24.3.tar.gz
+-- Applying patch disable-dynamic-when-static.patch
+-- Applying patch fix-include-directory.patch
+-- Applying patch fix-missing-header.patch
+-- Using source at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/libbson/src/1.24.3-34dd83f208.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/libbson_x64-windows/lib/pkgconfig/libbson-1.0.pc
+-- Downloading https://mirror.msys2.org/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst;https://repo.msys2.org/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst;https://mirror.selfnet.de/msys2/mingw/mingw32/mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst -> mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst...
+-- Downloading https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://repo.msys2.org/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst;https://mirror.selfnet.de/msys2/msys/x86_64/msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst -> msys2-msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst...
+-- Using msys root at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/tools/msys2/6f3fa1a12ef85a6f
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/libbson_x64-windows/debug/lib/pkgconfig/libbson-1.0.pc
+-- Installing: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/libbson_x64-windows/share/libbson/usage
+-- Performing post-build validation

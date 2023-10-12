@@ -1,0 +1,13 @@
+prefix=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows
+exec_prefix=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows
+libdir=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/lib
+sharedlibdir=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/lib
+includedir=B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lzlib
+Cflags: -I${includedir}

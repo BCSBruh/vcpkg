@@ -1,0 +1,7 @@
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/zlib.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/test.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/edit_cache.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/list_install_components.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/install.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/x64-windows-dbg/CMakeFiles/install/local.dir

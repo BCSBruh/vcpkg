@@ -1,0 +1,8 @@
+Package: mongo-cxx-driver
+Version: 3.8.0
+Depends: libbson, mongo-c-driver, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 33e2a02f366e1c749c9a21f705ea7c3bb226b6bc2204230b7f46b69f184ac5d4
+Description: MongoDB C++ Driver.
+Status: install ok half-installed

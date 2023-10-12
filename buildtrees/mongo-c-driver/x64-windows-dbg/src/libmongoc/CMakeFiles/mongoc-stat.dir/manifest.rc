@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-c-driver/x64-windows-dbg/src/libmongoc/CMakeFiles/mongoc-stat.dir/embed.manifest"

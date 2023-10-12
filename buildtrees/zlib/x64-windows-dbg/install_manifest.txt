@@ -1,0 +1,2 @@
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/debug/lib/zlibd.lib
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/debug/bin/zlibd1.dll

@@ -1,0 +1,2 @@
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
+B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+Checking patch src/libmongoc/CMakeLists.txt...
+Hunk #4 succeeded at 1155 (offset -11 lines).
+Hunk #5 succeeded at 1220 (offset -11 lines).
+Hunk #6 succeeded at 1235 (offset -11 lines).
+Hunk #7 succeeded at 1247 (offset -11 lines).
+Applied patch src/libmongoc/CMakeLists.txt cleanly.

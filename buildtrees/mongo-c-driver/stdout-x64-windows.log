@@ -1,0 +1,21 @@
+-- Using cached mongodb-mongo-c-driver-1.24.3.tar.gz.
+-- Extracting source B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/mongodb-mongo-c-driver-1.24.3.tar.gz
+-- Applying patch disable-dynamic-when-static.patch
+-- Applying patch fix-include-directory.patch
+-- Applying patch fix-dependencies.patch
+-- Applying patch fix-mingw.patch
+-- Applying patch pkgconfig.patch
+-- Using source at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-c-driver/src/1.24.3-56c7a21808.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows/lib/pkgconfig/libmongoc-1.0.pc
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows/lib/pkgconfig/libmongoc-ssl-1.0.pc
+-- Using cached mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst.
+-- Using msys root at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/tools/msys2/6f3fa1a12ef85a6f
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows/debug/lib/pkgconfig/libmongoc-1.0.pc
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows/debug/lib/pkgconfig/libmongoc-ssl-1.0.pc
+-- Installing: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/mongo-c-driver_x64-windows/share/mongo-c-driver/usage
+-- Performing post-build validation

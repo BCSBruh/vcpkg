@@ -1,0 +1,19 @@
+-- Downloading https://github.com/madler/zlib/archive/v1.3.tar.gz -> madler-zlib-v1.3.tar.gz...
+-- Extracting source B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/madler-zlib-v1.3.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-skip-building-examples.patch
+-- Applying patch 0003-build-static-or-shared-not-both.patch
+-- Applying patch 0004-android-and-mingw-fixes.patch
+-- Using source at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/zlib/src/v1.3-8825ee792f.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/lib/pkgconfig/zlib.pc
+-- Using cached mingw-w64-i686-pkgconf-1~1.8.0-2-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.6-1-x86_64.pkg.tar.zst.
+-- Using msys root at B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/downloads/tools/msys2/6f3fa1a12ef85a6f
+-- Fixing pkgconfig file: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/debug/lib/pkgconfig/zlib.pc
+-- Installing: B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/packages/zlib_x64-windows/share/zlib/copyright
+-- Performing post-build validation

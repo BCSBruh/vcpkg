@@ -1,0 +1,319 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      The target system is: Windows - 10.0.22631 - AMD64
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/3.27.6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:21 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:21 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-13il2t"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-13il2t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-13il2t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_59415
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_59415.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_59415.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_59415.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_59415.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_59415.exe /implib:cmTC_59415.lib /pdb:cmTC_59415.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/bsoncxx/CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/3.27.6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "src/bsoncxx/CMakeLists.txt:15 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "src/bsoncxx/CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-00iz6u"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-00iz6u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake;B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake/make_dist"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-00iz6u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_77a8d
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_77a8d.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_77a8d.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_77a8d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77a8d.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_77a8d.exe /implib:cmTC_77a8d.lib /pdb:cmTC_77a8d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "cmake/BsoncxxUtil.cmake:59 (generate_export_header)"
+      - "src/bsoncxx/CMakeLists.txt:166 (bsoncxx_add_library)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tg2nig"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tg2nig"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake;B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake/make_dist"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tg2nig'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_45ff4
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_45ff4.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_45ff4.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx
+        FAILED: CMakeFiles/cmTC_45ff4.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_45ff4.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_45ff4.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(1): error C2065: '__deprecated__': undeclared identifier
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(1): error C2062: type 'int' unexpected
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(1): error C2143: syntax error: missing ';' before '{'
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(1): error C2447: '{': missing function header (old-style formal list?)
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tg2nig\\src.cxx(2): error C3861: 'somefunc': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "examples/mongocxx/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-99snym"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-99snym"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake;B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake/make_dist"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-99snym'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_758a1
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_758a1.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_758a1.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-99snym\\src.cxx
+        FAILED: CMakeFiles/cmTC_758a1.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_758a1.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_758a1.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-99snym\\src.cxx
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-99snym\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "examples/mongocxx/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhyuko"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhyuko"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake;B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake/make_dist"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhyuko'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e1655
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e1655.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_e1655.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yhyuko\\CheckFunctionExists.cxx
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yhyuko\\CheckFunctionExists.cxx(14): warning C4007: 'main': must be '__cdecl'
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e1655.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e1655.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e1655.exe /implib:cmTC_e1655.lib /pdb:cmTC_e1655.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_e1655.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e1655.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e1655.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e1655.exe /implib:cmTC_e1655.lib /pdb:cmTC_e1655.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e1655.dir\\CheckFunctionExists.cxx.obj /out:cmTC_e1655.exe /implib:cmTC_e1655.lib /pdb:cmTC_e1655.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e1655.dir/intermediate.manifest CMakeFiles\\cmTC_e1655.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "examples/mongocxx/CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g9wb01"
+      binary: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g9wb01"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake;B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/src/r3.8.0-7534f752ee.clean/cmake/make_dist"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "B:/Capstone/Digital-Twin-CS_Capstone/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'B:/Capstone/Digital-Twin-CS_Capstone/vcpkg/buildtrees/mongo-cxx-driver/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g9wb01'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d96f4
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP  /Gv -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d96f4.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_d96f4.dir\\ /FS -c B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-g9wb01\\CheckFunctionExists.cxx
+        B:\\Capstone\\Digital-Twin-CS_Capstone\\vcpkg\\buildtrees\\mongo-cxx-driver\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-g9wb01\\CheckFunctionExists.cxx(14): warning C4007: 'main': must be '__cdecl'
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d96f4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d96f4.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_d96f4.exe /implib:cmTC_d96f4.lib /pdb:cmTC_d96f4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d96f4.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d96f4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d96f4.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_d96f4.exe /implib:cmTC_d96f4.lib /pdb:cmTC_d96f4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d96f4.dir\\CheckFunctionExists.cxx.obj /out:cmTC_d96f4.exe /implib:cmTC_d96f4.lib /pdb:cmTC_d96f4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d96f4.dir/intermediate.manifest CMakeFiles\\cmTC_d96f4.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

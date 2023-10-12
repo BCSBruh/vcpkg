@@ -1,0 +1,7 @@
+Package: mongo-c-driver
+Version: 1.24.3
+Depends: libbson, vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 651032179f25bd48dcd378a1f6594cd066ebe8cc36ea91852820a4202f79faa2
+Description: Client library written in C for MongoDB.
